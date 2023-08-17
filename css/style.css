@@ -299,7 +299,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.overlay-text {
+.overlay {
   height: 300px;
   background: var(--brand-cl);
   position: absolute;
