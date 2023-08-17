@@ -314,7 +314,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 296px;
   padding: 40px 32px;
 }
 
@@ -685,7 +684,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1) rotate(-360deg);
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -726,7 +725,7 @@ img {
   fill: var(--white-cl);
 }
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(3);
+  transform: translate(-50%, -50%) scale(3) rotate(360deg);
 }
 
 .is-hidden {
